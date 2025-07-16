@@ -22,7 +22,7 @@ func main() {
 
     port := os.Getenv("PORT")
     if port == "" {
-        port = "8080"
+        port = "8082"
     }
 
     fmt.Printf("%s (%s) is running on port %s...\n", os.Getenv("SERVICE_NAME"), ownerName, port)
